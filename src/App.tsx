@@ -20,8 +20,8 @@ function App() {
         {data?.map(foodData => 
           <Card
             id= {foodData.id? foodData.id : 0}
-            price={foodData.price} 
-            title={foodData.title} 
+            price={foodData.price}
+            title={foodData.title}
             image={foodData.image}
           />
         )}
